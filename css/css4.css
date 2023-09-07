@@ -1,0 +1,135 @@
+/* *Parte 1 navbar*/
+body {
+    margin: 0;
+    /* Elimina los márgenes predeterminados del cuerpo */
+    align-items: center;
+    /* Centra verticalmente los elementos hijos */
+    justify-content: center;
+    /* Centra horizontalmente los elementos hijos */
+    height: 100vh;
+    /* Establece la altura del cuerpo al 100% del viewport (ventana gráfica) */
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: red;
+    /* Cambia el color de fondo según tus preferencias */
+    overflow: hidden;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    /* Centra verticalmente los elementos hijos */
+}
+
+/* Estilos para los enlaces en la barra de navegación */
+nav a {
+    font-size: 19px;
+    margin-right: 105px;
+    float: right;
+    /* Alinea los enlaces a la derecha */
+    color: white;
+    /* Cambia el color del texto según tus preferencias */
+    padding: 10px 20px;
+    /* Añade espacio alrededor del texto */
+    font-family: sans-serif;
+    text-decoration: none;
+    /* Quita la decoración de los enlaces */
+}
+
+.title {
+    float: left;
+    color: white;
+    font-size: 19px;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* *Parte 2 img, párrafo y título */
+
+h1 {
+    text-align: center;
+    /* Mantener el título centrado horizontalmente */
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-top: 2z5px;
+    /* Eliminar margen superior e inferior */
+}
+
+/* Figure "IMAGEN" */
+figure {
+    background-color: white;
+    /* Establece el fondo blanco */
+    padding: 24px;
+    /* Espacio de relleno de 24 píxeles en todos los lados */
+    margin-top: 40px;
+    /* Espacio más grande entre el título y la imagen */
+    margin-left: 150px;
+    /* Márgenes izquierdos de 150 píxeles */
+    margin-right: 150px;
+    /* Márgenes derechos de 150 píxeles */
+}
+
+figure img.image {
+    display: block;
+    /* Hace que la imagen sea un bloque en lugar de un elemento en línea */
+    margin: 20px auto;
+    /* Agrega un margen superior para separar la imagen del texto */
+    order: 1;
+    /* Cambia el orden, moviendo la imagen a la izquierda */
+}
+
+figure.content {
+    background-color: white;
+    padding: 24px;
+    margin-top: 40px;
+    display: flex;
+    /* Utilizamos Flexbox para el diseño */
+    align-items: flex-start;
+    /* Alinea elementos verticalmente arriba */
+}
+
+/* Estilos para el contenedor del texto */
+div.text-content {
+    flex: 1;
+    /* Se expandirá para ocupar el espacio restante */
+    margin-left: 20px;
+    /* Agrega un espacio entre el texto y la imagen */
+    order: 2;
+    /* Cambia el orden, moviendo el texto a la derecha */
+    font-family: sans-serif;
+
+    text-align: center;
+
+}
+
+/* *Parte3*/
+
+footer {
+    padding: 15px;
+    /* Define el espacio de relleno en todas las direcciones, pero hay un error de sintaxis, debería ser "25px" */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* Define la fuente del texto */
+    background-color: red;
+    /* Establece el color de fondo en rojo */
+    color: white;
+    /* Establece el color del texto en blanco */
+    font-size: 80px;
+    /* Aumenta el tamaño de fuente dentro del footer a 80 píxeles */
+    text-align: center;
+    /* Centra el texto horizontalmente dentro del footer */
+    margin-top: 15px;
+    /* Agrega un margen superior de 15 píxeles */
+    margin-bottom: 0px;
+    /* Elimina el margen inferior */
+    position: absolute;
+    /* Establece la posición absoluta */
+    left: 0;
+    /* Ancla el footer a la izquierda */
+    right: 0;
+    /* Ancla el footer a la derecha */
+}
+
+li{
+    font-size: 30px;
+    list-style-type: none; /* Oculta las viñetas de la lista */
+}
